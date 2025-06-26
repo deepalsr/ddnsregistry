@@ -35,13 +35,13 @@ This repository contains two separate projects for implementing a decentralized 
    cd ddnsregistry
  ```
 
-````
+
 2. **Install dependencies**
 ```shell
 npm install
 # or
 yarn install
-````
+
 
 3. **Start Ganache**
 
