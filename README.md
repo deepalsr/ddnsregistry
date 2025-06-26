@@ -31,10 +31,11 @@ This repository contains two separate projects for implementing a decentralized 
 1. **Clone the repo**
 
    ```shell
-   ```
+  
 
 git clone [https://github.com/deepalsr/ddnsregistry.git](https://github.com/deepalsr/ddnsregistry.git)
 cd ddnsregistry
+ ```
 
 ````
 2. **Install dependencies**
