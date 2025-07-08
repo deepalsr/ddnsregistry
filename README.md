@@ -36,14 +36,14 @@ This repository contains two separate projects for implementing a decentralized 
  ```
 
 
-2. **Install dependencies**
+2. Install dependencies
 ```shell
 npm install
 # or
 yarn install
 
 
-3. **Start Ganache**
+3. Start Ganache
 
    ```shell
    ganache-cli --port 7545
@@ -54,7 +54,7 @@ yarn install
 # or launch Ganache GUI and set workspace to port 7545
 
 ````
-4. **Compile & Deploy**
+4. Compile & Deploy
 - Update `hardhat.config.js` to point at `http://127.0.0.1:7545`
 - Run:
   ```shell
@@ -63,7 +63,7 @@ npx hardhat run --network localhost scripts/deploy.js
   ```
 - Note the deployed contract address for your front end.
 
-### Usage
+ Usage
 Interact via Hardhat scripts or programmatically:
 ```js
 // Example: lookup in a script
